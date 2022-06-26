@@ -2,8 +2,8 @@ h1{
     font-family: arial;
     font-size: 30pt;
     color:rgb(49, 49, 123);
-    text-shadow: 2px 5px 10px black;
+    text-shadow: 7px 7px 7px black;
 }
 span{
-    text-decoration: line-through;
+    text-decoration: none;
 }
