@@ -4,3 +4,6 @@ h1{
     color:rgb(49, 49, 123);
     text-shadow: 2px 5px 10px black;
 }
+span{
+    text-decoration: line-through;
+}
