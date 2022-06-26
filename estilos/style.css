@@ -2,4 +2,5 @@ h1{
     font-family: arial;
     font-size: 30pt;
     color:rgb(49, 49, 123);
+    text-shadow: 2px 5px 10px black;
 }
