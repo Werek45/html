@@ -1,9 +1,13 @@
 h1{
     font-family: arial;
     font-size: 30pt;
-    color:rgb(49, 49, 123);
+    color:rgb(23, 23, 40);
     text-shadow: 7px 7px 7px black;
 }
 span{
     text-decoration: none;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
 }
