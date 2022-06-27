@@ -2,7 +2,7 @@ h1{
     font-family: arial;
     font-size: 30pt;
     color:rgb(23, 23, 40);
-    text-shadow: 7px 7px 7px black;
+    text-shadow: 2px 2px 2px black;
 }
 span{
     text-decoration: none;
@@ -10,4 +10,7 @@ span{
 p{
     text-align: justify;
     text-indent: 50px;
+}
+body{
+    background-color:#a1d3ef;
 }
