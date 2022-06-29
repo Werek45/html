@@ -48,3 +48,31 @@
     figure.foto-legenda:hover figcaption {
         opacity: 1;
     }
+    /*FORMATAÇÃO DO MENU*/
+
+    nav#menu
+    {
+        display: block;
+        
+    }
+
+    nav#menu ul
+    {
+        list-style: none;
+        text-transform: uppercase;
+        position: absolute;
+        top: -2%;
+        left: 300px;
+    }
+    nav#menu li
+    {
+        display: inline-block;
+        background-color: #dddddd;
+        padding: 10px;
+        margin: 2px;
+    }
+
+    nav#menu h1
+    {
+        display: none;
+    }
