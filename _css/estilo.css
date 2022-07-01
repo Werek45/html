@@ -175,9 +175,34 @@ body
         vertical-align: top;
         /*box-shadow: .3rem .3rem .3rem;*/
     }
-    table#tabelaspec td#tabelar
+    table#tabelaspec td.ce
     {
-        text-align: left;
+        color: #ffffff;
+        background-color: #606060;
+        vertical-align: top;
+        font-weight: bold;
+    }
+    table#tabelaspec td.cd
+    {
+        background-color: #cecece;
+       text-align: right;
+    }
+
+    table#tabelaspec caption
+    {
+        color: #888888;
+        font-size: 13pt;
+        font-weight: bolder;
+    }
+
+    table#tabelaspec caption span
+    {
+        display: block;
+        float: right;
+        color: #000000;
+        font-size: 8pt;
+        margin-top: .7rem;
+
     }
 
     aside#lateral
