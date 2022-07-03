@@ -7,6 +7,7 @@
 }
 body
    {
+        font-family: Arial, sans-serif;
        background-color: #dddddd;
        color: rgba(0, 0, 0, 1)
    }
@@ -16,13 +17,22 @@ body
        background-color: #ffffff;
        margin: -20px auto 0px auto;
        box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-       padding: 10px;
+       padding: 30px;
    }
 
    p
    {
        text-align: justify;
-       text-indent: 50px;
+       text-indent: 10px;
+    }
+    a
+    {
+        color: #606060 ;
+        text-decoration: none;
+    }
+    a:hover
+    {
+        text-decoration: underline;
     }
 
     h1
@@ -30,7 +40,7 @@ body
         font-family: arial;
         font-size: 30pt;
       color:rgb(23, 23, 40);
-        text-shadow: 2px 2px 2px black;
+        text-shadow: .05rem .05rem .05rem black;
     }
 
     span
@@ -41,8 +51,8 @@ body
     header#cabecalho img#icone 
     {
         position: relative;
-        left: 735px ;
-        top: -45px;
+        left: 47rem;
+        top: -3rem;
     }
     header#cabecalho 
     {
@@ -52,7 +62,7 @@ body
         padding: 0px;
     }
     header#cabecalho h1
-    {
+    { 
         font-family: 'FonteLogo' , sans-serif;
         font-size: 30pt;
         color: #606060;
@@ -81,7 +91,7 @@ body
     figure.foto-legenda
     {
         position: relative;
-        border: 2px solid white;
+        border: .2rem solid white;
         box-shadow: 1px 1px 4px black; 
     }
     figure.foto-legenda img
@@ -154,11 +164,48 @@ body
     section#corpo
     {
         display: block;
-        width: 32.3rem;
+        width: 30.5rem;
         float: left;
         border-right: .1rem solid #606060;
         padding-right:  1rem;
     }
+    article#noticia-principal h2 
+    {
+        font-size: 13pt;
+        color: #606060;
+        background-color: #dddddd;
+        padding: 5px 0px 5px 10px;
+        margin: 10px 0px 10px 0px;
+    }
+    header#cabecalho-artigo h1
+    {
+        font-family: 'FonteLogo', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-bottom: 0rem;
+        margin-top: 0rem;
+    }
+    .direita 
+    {
+        text-align: right;
+    }
+
+    header#cabecalho-artigo h2
+    {
+        font-size: 13pt;
+        color: #cecece;
+        background-color: #ffffff;
+        margin: 0rem;
+    }
+
+    header#cabecalho-artigo h3
+    {
+        font-size: 12px;
+        color: #606060;
+
+    }
+
+
     table#tabelaspec
     {
         border: .0rem solid #606060;
@@ -195,7 +242,7 @@ body
         font-weight: bolder;
     }
 
-    table#tabelaspec caption span
+    table#tabelaspec caption span 
     {
         display: block;
         float: right;
@@ -208,9 +255,29 @@ body
     aside#lateral
     {
         display: block;
-        width: 350px;
+        width: 23rem;
         float: right;
+        background-color: #dddddd;
+        padding: .5rem;
+        margin-top: .5rem;
+        box-shadow: .2rem .2rem .2rem rgba(0,0,0,.5)
     }
+
+    aside#lateral h1
+    {
+        font-family: 'FonteLogo', sans-serif;
+        font-size: 20pt;
+        color: #606060;
+        margin-top: 0rem;
+    }
+    aside#lateral h2
+    {
+        background-color: #606060;
+        font-size: 13pt;
+        color: #ffffff;
+        padding: .4rem;
+    }
+
     footer#rodape
     {
         clear: both; /*limpar configuração de ambos os lados faendo com que mostre fora da divisão */
