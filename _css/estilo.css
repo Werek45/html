@@ -110,27 +110,27 @@ body
         height: 100%;
         padding: 10px;
         box-sizing: border-box;
-        transition: opacity .5s;
+        transition: opacity 1s;
     }
     figure.foto-legenda:hover figcaption {
         opacity: 1;
     }
     /*FORMATAÇÃO DO MENU*/
-
+    
+    nav#menu ul
+    {
+        list-style: none;
+        text-transform: uppercase;
+        position:relative;
+        top: -17rem;
+        left: 15rem;
+    }
     nav#menu
     {
         display: block;
         
     }
 
-    nav#menu ul
-    {
-        list-style: none;
-        text-transform: uppercase;
-        position: relative;
-        top: -15rem;
-        left: 17rem;
-    }
     nav#menu li
     {
         display: inline-block;
