@@ -10,16 +10,15 @@ body
         font-family: Arial, sans-serif;
        background-color: #dddddd;
        color: rgba(0, 0, 0, 1)
-   }
-   div#interface 
-   {
-       width: 900px;
-       background-color: #ffffff;
-       margin: -20px auto 0px auto;
-       box-shadow: 0px 0px 10px rgba(0,0,0,.5);
-       padding: 30px;
-   }
+    }
 
+    header#cabecalho img#icone 
+    {
+        position: relative;
+        left: 46.5rem;
+        top: -3.5rem;
+ 
+   }
    p
    {
        text-align: justify;
@@ -47,12 +46,13 @@ body
     {
      text-decoration: none;
     }
-
-    header#cabecalho img#icone 
+    div#interface 
     {
-        position: relative;
-        left: 47rem;
-        top: -3rem;
+        width: 900px;
+        background-color: #ffffff;
+        margin: -17px auto 0px auto;
+        box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+        padding: 1rem;
     }
     header#cabecalho 
     {
